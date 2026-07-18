@@ -571,13 +571,14 @@ DELIVERABLE
 - [ ] Từ ngữ, thuật ngữ và dấu tiếng Việt đúng, tự nhiên, nhất quán.
 - [ ] Mật độ desktop phù hợp và không có khu vực quá chật hoặc khó quét mắt.
 - [ ] Mobile đọc tốt ngoài hiện trường, mục tiêu chạm đủ lớn và hành động chính trong tầm ngón cái.
+- [ ] Mọi vùng mang tên Bản đồ/map/GIS đều hiển thị đúng nguồn Google My Maps hoặc fallback từ chính nguồn đó; không còn nền vector giả bản đồ.
 - [ ] Trạng thái không chỉ dựa vào màu; focus bàn phím và tương phản dễ nhận biết.
 - [ ] Các KPI có nguồn/kỳ/định nghĩa; không có con số trang trí không giải thích được.
 - [ ] Người dùng luôn biết đối tượng, tuyến–Km+m, trạng thái, người phụ trách và hành động tiếp theo.
 - [ ] Offline, queued, retry, conflict và receipt được phân biệt rõ; cảnh báo khẩn không tạo cảm giác gửi thành công giả.
 - [ ] Bằng chứng giữ nguồn gốc: bản gốc, thời gian, tọa độ/sai số, người/thiết bị và lịch sử.
 - [ ] Phân quyền/phạm vi/dữ liệu nhạy cảm thể hiện đúng mức, không lộ dữ liệu qua dashboard/export.
-- [ ] Cổng công khai tách khỏi dữ liệu nghiệp vụ và chỉ thể hiện dataset đã duyệt.
+- [ ] Thiết kế cổng công khai tách khỏi dữ liệu nghiệp vụ; trước production phải thay/kiểm soát để chỉ thể hiện dataset đã duyệt.
 - [ ] Có thể lần theo đủ 48 requirement ID trong ma trận và duyệt đủ 7 kịch bản bắt buộc.
 - [ ] Các giả định nghiệp vụ/pháp lý/tài chính được gắn nhãn, không bị trình bày như chính sách đã chốt.
 

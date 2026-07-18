@@ -696,6 +696,7 @@ body.mobile-mode .mobile-app { width: 390px; max-width: 100vw; overflow-x: hidde
 .mobile-map { min-height: 235px; border-radius: 0; box-shadow: none; }
 .google-map.mobile-map .google-map-frame { top: -64px; bottom: auto; height: calc(100% + 64px); }
 .google-map.mobile-map .map-status-chip { top: 8px; left: 8px; max-width: calc(100% - 16px); }
+.google-map.mobile-map .map-source-link { width: 44px; height: 44px; top: 8px; right: 8px; justify-content: center; padding: 0; }
 .google-map.mobile-map .map-source-link span { display: none; }
 .google-map.mobile-map .gps-chip { top: auto; bottom: 8px; left: 8px; }
 .gps-chip { position: absolute; z-index: 8; left: 10px; top: 10px; padding: 6px 8px; border-radius: 8px; color: var(--teal-700); background: rgba(255,255,255,.94); box-shadow: var(--shadow-soft); font-size: 9px; font-weight: 750; }

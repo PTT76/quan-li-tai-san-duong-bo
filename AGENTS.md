@@ -56,7 +56,7 @@ When requirements conflict, preserve the original intent, document the conflict,
 
 ## Current prototype status
 
-`ui-ux-draft` is a dependency-free static review prototype. `index.html`, `styles.css`, and `app.js` render 14 desktop and 5 mobile/PWA concept frames through URLs such as `index.html?screen=D01&state=default`. `capture-screens.ps1` reproduces the PNG review set with Microsoft Edge headless. All displayed records remain illustrative and the prototype does not persist data or call real services.
+`ui-ux-draft` is a dependency-free static review prototype. `index.html`, `styles.css`, and `app.js` render 14 desktop and 5 mobile/PWA concept frames through URLs such as `index.html?screen=D01&state=default`. `capture-screens.ps1` reproduces the PNG review set with Microsoft Edge headless and adds `capture=1` so map frames use the stable local reference asset. Application records and metrics remain illustrative, but visible basemap/layers come from the user-provided public Google My Maps source; normal online views load its iframe while offline/capture states use `assets/google-mymaps-reference.png`. The prototype does not persist data or call business services.
 
 There is currently no package manifest, production application framework, automated test suite, linter, or documented production build command. The approved implementation is expected to be planned separately before any code is added under `Source code`. When a production stack is introduced, add the smallest standard scripts for development, linting, tests, and production build, then update this file and the project README with exact commands.
 
