@@ -1,0 +1,12 @@
+* text=auto
+
+# Binary documents and media
+*.doc binary
+*.docx binary
+*.pdf binary
+*.gif binary
+*.ico binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.webp binary
